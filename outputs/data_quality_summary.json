@@ -1,0 +1,51 @@
+{
+  "before": {
+    "raw_rows": 3005,
+    "raw_columns": 29,
+    "exact_duplicate_rows": 5,
+    "missing_cells": 375
+  },
+  "after": {
+    "clean_rows": 2998,
+    "clean_columns": 30,
+    "rows_removed_exact_duplicates": 5,
+    "rows_removed_invalid_identity_or_date": 2,
+    "invalid_dates_after_dedup": 2,
+    "missing_cells_after_cleaning": 380,
+    "unique_patients": 2100,
+    "unique_cycles": 2998,
+    "transfer_cycles": 2910,
+    "known_clinical_outcomes": 2876,
+    "missing_clinical_outcomes_among_transfers": 34,
+    "invalid_range_counts": {
+      "patient_age": 2,
+      "infertility_duration_months": 0,
+      "bmi": 2,
+      "afc": 0,
+      "amh_ng_ml": 0,
+      "stimulation_days": 0,
+      "estradiol_pg_ml": 0,
+      "progesterone_ng_ml": 0,
+      "total_oocytes": 0,
+      "mature_oocytes": 0,
+      "fertilization_count": 0,
+      "embryos_formed": 0,
+      "day_of_embryo_transfer": 0,
+      "embryos_transferred": 0,
+      "blastocyst_indicator": 0,
+      "clinical_pregnancy_outcome": 0,
+      "biochemical_pregnancy_outcome": 0,
+      "live_birth_outcome": 0,
+      "endometrial_thickness_mm": 0,
+      "treatment_cycle_cost_inr": 0
+    },
+    "logical_count_violations": {
+      "mature_oocytes_greater_than_total_oocytes": 1,
+      "fertilization_count_greater_than_mature_oocytes": 0,
+      "embryos_formed_greater_than_fertilization_count": 0,
+      "embryos_transferred_greater_than_embryos_formed": 0
+    },
+    "date_min": "2022-01-01",
+    "date_max": "2025-12-30"
+  }
+}

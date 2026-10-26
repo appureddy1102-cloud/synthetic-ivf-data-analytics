@@ -1,0 +1,21 @@
+,importance
+patient_age,0.13852556307065905
+amh_ng_ml,0.12441966061096446
+estradiol_pg_ml,0.06743408662009966
+endometrial_thickness_mm,0.061193656563740505
+bmi,0.06096196646758689
+infertility_duration_months,0.059377047660060564
+treatment_cycle_cost_inr,0.05906317086270492
+progesterone_ng_ml,0.05410289957820299
+embryo_grade_category_C,0.04718961499342765
+embryo_grade_category_A,0.04575545719590764
+afc,0.03821913583835856
+total_oocytes,0.03156826132614516
+embryos_formed,0.02638225114402865
+fertilization_count,0.02544687970473137
+mature_oocytes,0.025188024669006204
+stimulation_days,0.020439008111650867
+embryo_developmental_stage_Day 3,0.015377490911833665
+day_of_embryo_transfer,0.013227558265500226
+embryo_developmental_stage_Day 5 blastocyst,0.01317172387383212
+stimulation_protocol_Long agonist,0.011863980374934243

@@ -1,0 +1,23 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and local settings (never commit credentials)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Temporary exports/logs
+*.tmp
+*.log
+*.bak
